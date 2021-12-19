@@ -36,6 +36,48 @@ body {
 .card {
     background-color: var(--cardBG);
     width: 360px;
-    height: 500px;
     border-radius: 20px;
+    padding: 20px;
+}
+
+.NFT-image img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 10px;
+    border-radius: 15px;
+}
+
+.NFT-title {
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.NFT-desc {
+    font-size: 1.8rem;
+    color: var(--soft-blue);
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.NFT-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.NFT-price {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: var(--cyan);
+    display: flex;
+    width: 50%;
+}
+
+.NFT-timeleft {
+    font-size: 1.8rem;
+    color: var(--soft-blue);
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
 }
