@@ -81,3 +81,26 @@ body {
     justify-content: flex-end;
     width: 50%;
 }
+
+.NFT-author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.NFT-author img {
+    width: 32px;
+    height: auto;
+}
+
+.NFT-author p {
+    font-size: 1.8rem;
+    color: var(--soft-blue);
+}
+
+.NFT-author p span {
+    color: #fff;
+}
